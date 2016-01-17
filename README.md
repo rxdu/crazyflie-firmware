@@ -92,3 +92,9 @@ halt       : Halt the target using OpenOCD
 reset      : Reset the target using OpenOCD
 openocd    : Launch OpenOCD
 ```
+
+## Extra Commands
+Start JLink GDB Server
+```
+$ JLinkGDBServer -if SWD -device STM32F405VG
+```
